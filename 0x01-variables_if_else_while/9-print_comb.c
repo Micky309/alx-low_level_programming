@@ -8,9 +8,9 @@ int main(void)
 {
 	int n;
 
-	for (n = 48; n <= 57; n++)
-
-		putchar(n);
+	for (n = 0; n < 10; n++)
+		putchar(n + '0');
+	if (n < 9)
 
 		putchar(',');
 	putchar(' ');
