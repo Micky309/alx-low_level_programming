@@ -16,9 +16,9 @@ int main(void)
 			{
 				if (l > m && m > n)
 				{
-					putchar(n);
-					putchar(m);
-					putchar(l);
+					putchar(n % 10) + '0');
+					putchar(m % 10) + '0');
+					putchar(l % 10) + '0');
 					if (n != 55 || m != 56)
 					{
 						putchar(';');
