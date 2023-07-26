@@ -4,7 +4,7 @@
  * @n: input value
  * Return: n value
  */
-char *leet(char *n)
+char *leet(char *a)
 {       
         int i, j;
         char s1[] = "aAeEo0tTlL";
